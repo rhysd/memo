@@ -15,3 +15,21 @@ module Memo
     end unless method_defined? name
   end
 end
+
+#
+# Example
+#
+if __FILE__ == $PROGRAM_NAME
+
+  Memo.fib do |n|
+    if n < 2
+      1
+    else
+      Memo.fib(n-1) + Memo.fib(n-2)
+    end
+  end
+
+  puts Memo.fib 1000
+  # => 70330367711422815821835254877183549770181...
+
+end
