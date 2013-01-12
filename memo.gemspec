@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Memo::VERSION
   gem.authors       = ["rhysd"]
   gem.email         = ["lin90162@yahoo.co.jp"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{define memoized procedure easily}
+  gem.summary       = %q{you can define memoized procedure in Memo namespace. an example exists in lib/memo.rb}
+  gem.homepage      = "https://github.com/rhysd/memo"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
