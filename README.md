@@ -17,26 +17,10 @@ puts Memo.fib 1000
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install this repository via `gem` command.
 
-    gem 'memo'
+## License
 
-And then execute:
+MIT
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install memo
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+> Copyright (c) 2015 rhysd
