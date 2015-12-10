@@ -1,4 +1,4 @@
-require "memo/version"
+require_relative "memo/version"
 
 module Memo
   @@memo ||= {}
