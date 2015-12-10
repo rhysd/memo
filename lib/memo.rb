@@ -14,6 +14,14 @@ module Memo
       @@memo[name][a]
     end unless method_defined? name
   end
+
+  def self.__reset_memo
+    @@memo = {}
+  end
+
+  def self.__dump_memo
+    @@memo
+  end
 end
 
 #
