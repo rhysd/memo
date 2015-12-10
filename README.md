@@ -1,16 +1,16 @@
 # Memo
 
 ```ruby
-# Memo.fib is a memoized procedure
+# Memo.fib is a memoized function
 Memo.fib do |n|
     if n < 2
-    1
+      1
     else
-    Memo.fib(n-1) + Memo.fib(n-2)
+      Memo.fib(n-1) + Memo.fib(n-2)
     end
 end
 
-# the answer is calculated instantly
+# It calculates the answer instantly.
 puts Memo.fib 1000
 # => 70330367711422815821835254877183549770181...
 ```
